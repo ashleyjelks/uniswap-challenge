@@ -1,0 +1,10 @@
+.nftCollection__header {
+  color: #fc72ff;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.nftCollection__wrapper {
+  display: flex;
+  justify-content: center;
+}

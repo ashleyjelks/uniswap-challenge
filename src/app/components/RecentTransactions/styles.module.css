@@ -1,0 +1,42 @@
+.recentTransactions__header {
+  display: flex;
+  justify-content: center;
+  color: #fc72ff;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.recentTransactions__ts {
+  color: #fc72ff;
+  font-size: 12px;
+  font-weight: 700;
+  margin-right: 20px;
+}
+
+.recentTransactions__tx {
+  color: #fc72ff;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.recentTransactions {
+  margin-top: 150px;
+}
+
+@media (max-width: 768px) {
+  .recentTransactions__transaction__wrapper {
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.recentTransactions__transaction__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

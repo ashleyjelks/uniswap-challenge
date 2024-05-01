@@ -1,0 +1,128 @@
+.nft__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  max-height: 100vh;
+  max-width: 100vw;
+  transform: scale(0.5);
+}
+
+.nft {
+  padding: 50px;
+  background-color: #ffffff;
+  border-radius: 40px;
+}
+
+.nft__disabled {
+  filter: grayscale(100%);
+  opacity: 0.9;
+  padding: 50px;
+  background-color: #ffffff;
+  border-radius: 40px;
+}
+
+.nft__animating {
+  transform: scale(1.5);
+  padding: 50px;
+  background-color: #ffffff;
+  border-radius: 40px;
+}
+
+.mintButton {
+  background-color: #fc72ff;
+  color: #ffffff;
+  width: 100px;
+  height: 50px;
+  border: none;
+  font-size: 18px;
+  font-weight: 800;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+.mintButton:hover {
+  background-image: linear-gradient(
+    90deg,
+    #ec79f8 0%,
+    #ec663a 25%,
+    #3324ed 75%,
+    #71f198 100%
+  );
+  animation: slidebg 5s linear infinite;
+  transform: scale(1.2);
+}
+
+.viewNFTsButton {
+  background-color: #fc72ff;
+  color: #ffffff;
+  width: 150px;
+  height: 50px;
+  border: none;
+  font-size: 18px;
+  font-weight: 800;
+  border-radius: 20px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -50px;
+}
+
+.path {
+  stroke: #fc72ff;
+  stroke-width: 12;
+}
+
+@media (max-width: 768px) {
+  .path {
+    stroke-width: 10;
+  }
+}
+
+.svg__Border__isMintingState {
+  transform: rotate(90deg);
+}
+
+.mintText__error,
+.tooltip {
+  color: red;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .mintText__error {
+    max-width: 70%;
+  }
+}
+
+.mintText__status {
+  color: #fc72ff;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .mintText__status {
+    font-size: 16px;
+  }
+}
+
+.svg__wrapper {
+  position: absolute;
+  z-index: 1;
+}
+
+.text__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50px;
+}

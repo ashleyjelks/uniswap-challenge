@@ -1,0 +1,26 @@
+.button {
+  background-color: #ffefff;
+  color: #fc72ff;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  outline: none;
+  transition:
+    200ms ease background-color 0.3s,
+    transform 0.3s;
+}
+
+.button.hover,
+.button.focus {
+  transform: scale(1.05);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+}

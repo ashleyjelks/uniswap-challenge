@@ -1,0 +1,102 @@
+.overlay {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  justify-content: flex-end;
+  background-color: rgba(0, 0, 0, 0.5);
+  align-items: center;
+  flex-direction: column;
+  height: 100px;
+  margin: 0 20px;
+}
+
+.button__redirect {
+  height: 50px;
+  cursor: pointer;
+  font-size: 15px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.button__walletWrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.button__walletConnect {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.modal__body {
+  background-color: #ffffff;
+  padding: 20px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  height: 500px;
+  width: 100%;
+}
+
+.infoText__light {
+  color: #a9a9aa;
+  font-size: 13px;
+}
+
+.infoText__dark {
+  color: #000000;
+  font-size: 13px;
+}
+
+.button__redirect__wrapper {
+  color: #ffffff;
+  display: flex;
+}
+
+.info__headerText {
+  font-weight: 600;
+  margin-bottom: 5px;
+  font-size: 13px;
+}
+
+.info__wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #f3f4f8;
+  border-radius: 25px;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.icon__wallet {
+  height: 50px;
+  width: 50px;
+}
+
+.icon {
+  font-size: 30px;
+  color: #a0a0a0;
+}
+
+.header__text {
+  margin: 0;
+  font-size: 20;
+  font-weight: bold;
+  color: #000000;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
