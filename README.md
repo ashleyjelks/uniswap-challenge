@@ -20,3 +20,6 @@ I attempted to build this app according to the specs laid out in the instruction
 4. I felt there should be some additional visual feedback in between tapping Mint and waiting for the operation to complete so I added a div that shows the text "Minting in progress + a "stopwatch" showing the number of seconds that have passed since the transaction began.
 
 .
+## Project Instructions
+
+This assessment was a fun one! You can view all the specific requirements [here](https://drive.google.com/file/d/156ppAcKNfv2kz0ZH9tA0GCXM-vEk1UV0/view?usp=sharing).
